@@ -1,0 +1,34 @@
+plugins = []
+functionsDirectory = "C:\\Users\\tania\\frontend-7-Floratania\\traffic-lights-8\\netlify\\functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+redirects = []
+
+[dev]
+functions = "netlify/functions"
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\tania\\frontend-7-Floratania\\traffic-lights-8\\public"
+publishOrigin = "config"
+commandOrigin = "ui"
+base = "C:\\Users\\tania\\frontend-7-Floratania\\traffic-lights-8"
+command = "npm run build"
+functions = "C:\\Users\\tania\\frontend-7-Floratania\\traffic-lights-8\\netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
